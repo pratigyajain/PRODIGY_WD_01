@@ -1,0 +1,53 @@
+#main-nav {
+  position: fixed; /* Fixed position */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Initial background color */
+  padding: 10px;
+  z-index: 100; /* Ensure it's on top */
+}
+
+#main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center the menu items */
+}
+
+#main-nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+#main-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+/* Hover effect */
+#main-nav a:hover {
+  background-color: #555;
+}
+
+/* Active/Current page highlighting (you'll need to add classes dynamically) */
+#main-nav a.active {
+  color: yellow;
+}
+
+/* Styles when scrolled (example) */
+.scrolled {
+  background-color: rgba(
+    51,
+    51,
+    51,
+    0.8
+  ); /* Semi-transparent dark background */
+}
+
+/* Content styling (for demo purposes) */
+#content {
+  margin-top: 60px; /* Adjust for the fixed nav height */
+  padding: 20px;
+}
